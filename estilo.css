@@ -499,26 +499,80 @@ html{
     background-color: #252A2E;
     color: #fff;
     padding: 50px 20px;
+    height:1250px;
+    width: 100%;
 }
 .certificados h1{
     font-size: 48px;
     font-family: 'righteous';
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 .certificados .galeria1{
-    display:flex;
-    justify-content:center;
-    align-items: center;
+    background-color: #1CB698;
+    height: 500px;
+    width: 30%;
+    border: 5px solid #1CB698;
+    border-radius: 20px;
+    overflow: hidden;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 50px;
+
 }
-.certificados img{
-    display:block;
-    justify-content: space-between;
-    width: 26%; 
-    border-radius: 10%;
-    align-items: center;
-    border: 10px solid #1CB698;
+.certificados .galeria2{
+    background-color: #1CB698;
+    height: 500px;
+    width: 30%;
+    border: 5px solid #1CB698;
+    border-radius: 20px;
+    overflow: hidden;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 50px;
 }
+.certificados .galeria3{
+    background-color: #1CB698;
+    height: 500px;
+    width: 30%;
+    border: 5px solid #1CB698;
+    border-radius: 20px;
+    overflow: hidden;
+    float: left;
+}
+.certificados .galeria4{
+    background-color: #1CB698;
+    height: 500px;
+    width: 30%;
+    border: 5px solid #1CB698;
+    border-radius: 20px;
+    overflow: hidden;
+    clear: both;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+.certificados .galeria5{
+    background-color: #1CB698;
+    height: 500px;
+    width: 30%;
+    border: 5px solid #1CB698;
+    border-radius: 20px;
+    overflow: hidden;
+    float:left;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+.certificados .galeria6{
+    background-color: #1CB698;
+    height: 500px;
+    width: 30%;
+    border: 5px solid #1CB698;
+    border-radius: 20px;
+    overflow: hidden;
+    float:left;
+}
+
 
 
 
