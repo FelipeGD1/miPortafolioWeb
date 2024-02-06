@@ -230,6 +230,9 @@ html{
 .sobremi button:hover .overlay{
     width: 100%;
 }
+.botonDescargar{
+    text-decoration: none;
+}
 
 
 /*------------------------------------------------------------------------------------------------------------------*/
@@ -341,7 +344,7 @@ html{
 }
 @keyframes python {
     0%{width: 0%;}
-    100%{width: 80%;}
+    100%{width: 60%;}
 }
 
 .skills .skill .comunicacion{
@@ -498,80 +501,41 @@ html{
 .certificados{
     background-color: #252A2E;
     color: #fff;
-    padding: 50px 20px;
-    height:1250px;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
 }
-.certificados h1{
+.tituloCertificado{
     font-size: 48px;
     font-family: 'righteous';
-    text-align: center;
-    padding: 10px 0;
+    padding: 10px 10px;
+    
 }
-.certificados .galeria1{
-    background-color: #1CB698;
-    height: 500px;
-    width: 30%;
-    border: 5px solid #1CB698;
-    border-radius: 20px;
-    overflow: hidden;
-    float: left;
-    margin-right: 10px;
-    margin-bottom: 50px;
+.tituloCards{
+    font-size: 25px;
+    font-family: 'righteous';
+    
+}
+.cards{
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px;
+    
+}
+.card{
+    height: 300px;
+    width: 350px;
+    display: inline-block;
+    flex-direction: column;
+    margin: 10px;
+    border: 1px solid #1CB698;
+}
+.imgCards{
+    height: 300px;
+    width: 349px;
+}
 
-}
-.certificados .galeria2{
-    background-color: #1CB698;
-    height: 500px;
-    width: 30%;
-    border: 5px solid #1CB698;
-    border-radius: 20px;
-    overflow: hidden;
-    float: left;
-    margin-right: 10px;
-    margin-bottom: 50px;
-}
-.certificados .galeria3{
-    background-color: #1CB698;
-    height: 500px;
-    width: 30%;
-    border: 5px solid #1CB698;
-    border-radius: 20px;
-    overflow: hidden;
-    float: left;
-}
-.certificados .galeria4{
-    background-color: #1CB698;
-    height: 500px;
-    width: 30%;
-    border: 5px solid #1CB698;
-    border-radius: 20px;
-    overflow: hidden;
-    clear: both;
-    float: left;
-    margin-right: 10px;
-    margin-bottom: 50px;
-}
-.certificados .galeria5{
-    background-color: #1CB698;
-    height: 500px;
-    width: 30%;
-    border: 5px solid #1CB698;
-    border-radius: 20px;
-    overflow: hidden;
-    float:left;
-    margin-right: 10px;
-    margin-bottom: 50px;
-}
-.certificados .galeria6{
-    background-color: #1CB698;
-    height: 500px;
-    width: 30%;
-    border: 5px solid #1CB698;
-    border-radius: 20px;
-    overflow: hidden;
-    float:left;
-}
 
 
 
